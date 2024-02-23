@@ -83,11 +83,3 @@ h2:hover {
  a {
   color:var(--Black) ;
  }
-
-@media (max-width:600px) {
-  h2:hover {
-    color: var(--Yellow);
-    cursor: pointer;
-  }
-  
-}
