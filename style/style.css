@@ -15,7 +15,7 @@ body {
 }
 
 main{
-  max-width: 350px;
+  max-width: 340px;
   background-color: var(--White);
   padding: 0.8rem;
   border-radius: 1rem;
@@ -85,8 +85,9 @@ h2:hover {
  }
  
  @media (min-width:800px){
+
   main{
-    width: 580px;
+    width: 350px;
   }
  }
  
