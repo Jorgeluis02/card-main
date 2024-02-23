@@ -9,7 +9,7 @@ body {
   background-color: var(--Yellow);
   padding: 2rem;
   font-family: 'figtree';
-  font-size: 10px;
+  font-size: 16px;
   
 
 }
@@ -84,14 +84,7 @@ h2:hover {
   color:var(--Black) ;
  }
 
-@media (min-width:700px) {
-  body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
+@media (max-width:600px) {
   h2:hover {
     color: var(--Yellow);
     cursor: pointer;
