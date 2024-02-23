@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+}
+body {
+  background-color: var(--Yellow);
+  padding: 2rem;
+  font-family: 'figtree';
+  font-size: 10px;
+  
+
+}
+
+main{
+  max-width: 35%;
+  background-color: var(--White);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px;
+  border: solid 1px;
+  margin-inline: auto;
+}
+
+.image__header {
+  width: 100% ;
+  border-radius: 1rem;
+}
+
+.learning {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background-color: var(--Yellow);
+  height: 1.5rem;
+  width: 5rem ;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.paragraph__1 {
+  color: var(--Grey);
+  font-weight: 600;
+}
+h2 {
+  font-weight: 800;
+  margin-top: -5px;
+}
+h2:hover {
+  color: var(--Yellow);
+  cursor: pointer;
+}
+.paragraph__2 {
+  color: var(--Grey);
+  font-weight: 600;
+  margin-top: -8px;
+}
+ .photo__footer{
+  display: flex;
+  align-items: center;
+  margin-top: -5px;
+ }
+
+ .photo__profile {
+  width: 30px;
+ }
+ .name__photo {
+  font-weight: 600;
+  margin-left: 10px;
+ }
+ .attribution {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 0.5rem;
+  color: var(--White);
+ }
+ a {
+  color:var(--Black) ;
+ }
+
+@media (min-width:700px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  h2:hover {
+    color: var(--Yellow);
+    cursor: pointer;
+  }
+}
