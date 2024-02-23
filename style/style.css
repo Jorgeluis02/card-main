@@ -84,10 +84,14 @@ h2:hover {
   color:var(--Black) ;
  }
  
- @media (min-width:800px){
-
+ @media (max-width:600px){
+  
+  body {
+    padding: 4rem 2rem 4rem 2rem;
+  }
   main{
-    width: 350px;
+    width: 300px;
+    margin: auto;
   }
  }
  
