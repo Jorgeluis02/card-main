@@ -7,7 +7,7 @@
 }
 body {
   background-color: var(--Yellow);
-  padding: 14rem 0rem 10rem 0rem;
+  padding: 14rem 2rem 10rem 2rem;
   font-family: 'figtree';
   font-size: 16px;
   
@@ -76,7 +76,7 @@ h2:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   margin-top: 0.5rem;
   color: var(--White);
  }
@@ -85,9 +85,6 @@ h2:hover {
  }
  
  @media (min-width:800px){
-  body {
-    padding: 0;
-  }
 
   main{
     width: 350px;
